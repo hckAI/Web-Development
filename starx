@@ -10,7 +10,7 @@ var minutes = Math.floor(totalSeconds / 60);
 var seconds = totalSeconds % 60;
 document.write("Hours ",+hours);
 document.write("\nMinutes ",+minutes);
-document.write("\nSecounds ",+seconds)
+document.write("\nSecounds ",+seconds);
 }
 sayHello(129);
 
