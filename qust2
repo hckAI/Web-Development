@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<title>Web Page Design</title>
+
+<script>
+function sayHello() {
+   
+   var res = 0;
+   for(let i = a; i<=b; i++)
+     res = res ^ i;
+     if(res%2 == 0)
+        document.write("Even\n");
+    else
+        document.write("Odd\n");
+    
+}
+
+var tc = window.prompt("Enter the numuber of tc:  ");
+for( let i=0; i<T; T++) {
+    const L = window.prompt("Enter L");
+    const R = window.prompt("Enter R");
+    
+sayHello(L, R);
+}
+</script>
+
+<body>
+</body>
+</html>
