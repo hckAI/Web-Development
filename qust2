@@ -3,7 +3,7 @@
 <title>Web Page Design</title>
 
 <script>
-function sayHello(a,b) {
+function sayHello(a, b) {
    
    var res = 0;
    for(let i = a; i<=b; i++)
@@ -15,13 +15,12 @@ function sayHello(a,b) {
     
 }
 
-var tc = window.prompt("Enter the numuber of tc:  ");
-for( let i=0; i<T; T++) {
+var tc = window.prompt("Enter the numuber of tc:  "); 
     const L = window.prompt("Enter L");
     const R = window.prompt("Enter R");
     
 sayHello(L, R);
-}
+
 </script>
 
 <body>
