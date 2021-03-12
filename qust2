@@ -3,7 +3,7 @@
 <title>Web Page Design</title>
 
 <script>
-function sayHello() {
+function sayHello(a,b) {
    
    var res = 0;
    for(let i = a; i<=b; i++)
