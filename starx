@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<title>Web Page Design</title>
+<head>
+<script>
+function sayHello(totalSeconds) {
+   var hours = Math.floor(totalSeconds / 3600);
+totalSeconds %= 3600;
+var minutes = Math.floor(totalSeconds / 60);
+var seconds = totalSeconds % 60;
+document.write("Hours ",+hours);
+document.write("\nMinutes ",+minutes);
+document.write("\nSecounds ",+seconds)
+}
+sayHello(129);
+
+</script>
+</head>
+<body>
+</body>
+</html>
